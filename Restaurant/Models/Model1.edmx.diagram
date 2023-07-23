@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8a75372be9864bb7ba0b70ce2242fada" Name="Diagram1">
+        <EntityTypeShape EntityType="RestaurantDBModel.Customer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" FillColor="64, 0, 64" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Item" Width="1.5" PointX="2.5" PointY="0.75" IsExpanded="true" FillColor="64, 64, 64" />
+        <EntityTypeShape EntityType="RestaurantDBModel.PaymentType" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestaurantDBModel.OrderDetail" Width="1.5" PointX="4.75" PointY="2.875" FillColor="Gray" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Order" Width="1.5" PointX="2.5" PointY="2.875" FillColor="Black" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Transaction" Width="1.5" PointX="4.75" PointY="0.75" FillColor="0, 0, 64" />
+        <AssociationConnector Association="RestaurantDBModel.FK_OrderDetails_Orders" />
+        <EntityTypeShape EntityType="RestaurantDBModel.Login" Width="1.5" PointX="6.875" PointY="2" FillColor="0, 0, 192" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
